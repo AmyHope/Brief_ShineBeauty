@@ -5,61 +5,216 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shine Beauty</title>
     <link rel="stylesheet" href="SB.css">
+    <link rel="stylesheet" href="SB.js">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
     rel="stylesheet">
+
+
 </head>
 <body>
-    
-</body>
-<footer class="footer">
-    <div class="footer-left">
-        <img src="smallogo.png" alt="Small Logo" class="footer-logo">
+   
+    <header>
+        <div class="logo">
+            <img src="FinalLogo.png" alt="logo" class="logo">
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#Produits">Produit</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <div id="home" class="animated-title">
+      <h5>Bienvenue à <span>ShineBeauty</span></h5>
+      <p class="subtitle">
+        Le maquillage est un allié dans la gestion du stress, il réduit son impact.<br>
+        Nous choisissons le meilleur pour vous.
+      </p>
     </div>
-    <div class="footer-container">
-        <!------Les sections------>
-        <div class="footer-section">
-            <h3>À propos</h3>
-            <p>Nous sommes une société marocaine spécialisée dans la vente de produits de maquillage de luxe et de haute qualité.</p>
-            <p><a href="/plus">Plus</a></p>
-        </div>
-        <div class="footer-section">
-            <h3>Liens</h3>
-            <ul>
-                <li><a href="/boutique">Boutique</a></li>
-                <li><a href="/contact">Contactez-nous</a></li>
-                <li><a href="/faq">FAQs</a></li>
-                <li><a href="/politique-de-retour">Politique de retour</a></li>
-            </ul>
-        </div>
-        <div class="footer-section">
-            <h3>Support Client</h3>
-            <ul>
-                <li>Email: <a href="mailto:support@shinebeauty.com">support@shinebeauty.com</a></li>
-                <li>Téléphone: <a href="tel:+212520550020">+212520550020</a></li>
-            </ul>
-        </div>
-        <div class="footer-section">
-            <h3>Suivez-nous</h3>
-            <div class="social-icons">
-                <a href="https://www.facebook.com" class="social-icon" aria-label="Suivez-nous sur Facebook">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="https://www.instagram.com" class="social-icon" aria-label="Suivez-nous sur Instagram">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.twitter.com" class="social-icon" aria-label="Suivez-nous sur Twitter">
-                    <i class="fab fa-twitter"></i>
-                </a>
-                <a href="https://www.linkedin.com" class="social-icon" aria-label="Suivez-nous sur on LinkedIn">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
+<br><br><br>    <BR><br></BR>
+
+    <section id="Produits" class="product-section">
+    <div class="products-section">
+        <h1 style="color: #C7AE6A;background-color: #6a2c70;border-radius: 10px;width: 50%; margin:auto;">Nos Produits de Maquillage</h1>
+        <br>
+        <div class="products">
+           
+            <div class="product 1">
+                <img src="lipstick1.jpg.webp" alt="Rouge à lèvres">
+                <h2>Rouge à lèvres</h2>
+                <p>Un rouge à lèvres longue tenue, disponible en plusieurs teintes éclatantes.</p>
+                <ul>
+                    <li><strong>Taille :</strong> 7cm</li>
+                    <li><strong>Ingrédients :</strong><br> 50 % d'huile, 30 % de cire</li>
+                    <li><strong>Prix :</strong> 200 MAD</li>
+                    <li><strong>Disponibilité :</strong> En stock</li>
+                  </ul>
+                <br>
+                <button ><a id="abtn" href="#Acheter">Acheter</a></button>
+            </div>
+
+            
+            <div class="product 2">
+                <img src="fontdetein1.jpg.webp" alt="Fond de teint">
+                <h2>Fond de teint</h2>
+                <p>Un fond de teint léger pour un teint parfait et naturel.</p>
+                <ul>
+                    <li><strong>Taille :</strong> 30ml</li>
+                    <li><strong>Ingrédients :</strong><br> Eau, Glycerine, Silicones</li>
+                    <li><strong>Prix :</strong> 200 MAD</li>
+                    <li><strong>Disponibilité :</strong> En stock</li>
+                  </ul>
+                <br>
+                <button ><a id="abtn2"  href="#Acheter">Acheter</a></button>
+            </div>
+
+            <div class="product 3">
+                <img src="Eyeshadow.jpg" alt="Palette de fards à paupières">
+                <h2>Palette de fards</h2>
+                <p>Palette riche en couleurs pour des looks variés, du quotidien aux soirées glamour.</p>
+                <ul>
+                    <li><strong>Taille :</strong> 25cm</li>
+                    <li><strong>Ingrédients :</strong><br> Talc, Mica, Zinc Stearates</li>
+                    <li><strong>Prix :</strong> 200 MAD</li>
+                    <li><strong>Disponibilité :</strong> En stock</li>
+                  </ul>
+                <br>
+                <button ><a id="abtn3"  href="#Acheter">Acheter</a></button>
             </div>
         </div>
     </div>
-   
-    <div class="footer-bottom">
-        <p>Copyright © 2024 ShineBeauty. Tous droits réservés.</p>
-    </div>
-</footer>
+</section>
+    <div class="card" id="Acheter">
+        <h1>liste de commande</h1>
+        <br>
+        <h3>Merci de prend le temps pour remplir la formulaire</h3>
+        <br>
+        <section id="contact" class="order-section">
+        <form id="order-Form">
 
+            <label for="name">Nom et prénom</label>
+            <br>
+    <input type="text" id="name" name="name" placeholder="Entrer ton nom et prénom" required>
+    <div class="error" id="nameError"></div>
+
+    <label for="email">Email</label>
+    <br>
+    <input type="email" id="email" name="email"  placeholder="Entrer ton email" required>
+    <div class="error" id="emailError"></div>
+
+    <label for="address">Adresse</label>
+    <br>
+    <input type="text" id="address" name="address" placeholder="Entrer your adresse" required>
+    <div class="error" id="addressError"></div>
+
+    <label for="phone">Numéro de téléphone</label>
+    <br>
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="entrer ton numéro de telephone" required>
+    <div class="error" id="phoneError"></div>
+    <label for="choice">Sélectionner le Produit</label><br>
+  <select name="choice" id="choice">
+    <option value="1"  >Rouge à lévre</option>
+    <option value="2">fond de teint</option>
+    <option value="3">Pallete de fards</option>
+    </select>
+    <div class="error" id="nameError"></div>
+    <br><br>
+
+    <label for="quantity">Quantité</label>
+    <br>
+    <input type="number" id="quantity" name="quantity" min="1" value="1" required>
+    <div class="error" id="quantityError"></div>
+
+    <p>Total : <span id="total">200</span> Mad</p>
+    <br>
+    <br>
+
+    <button type="submit">Commander</button>
+        </form>
+    </section>
+    </div>
+    <br><br>
+    <section class="orders-section">
+       <br>
+       <h2 id="titretableau">Commandes Passées</h2>
+       <br>
+        <table>
+          <thead>
+            <tr>
+              <th>Nom</th>
+              <th>Email</th>
+              <th>Adresse</th>
+              <th>Téléphone</th>
+              <th>Quantité</th>
+              <th>Total</th>
+              <th>Produit</th>
+            </tr>
+          </thead>
+          <tbody id="ordersTableBody">
+           
+          </tbody>
+        </table>
+      </section>
+
+
+
+
+      <footer class="footer">
+        <div class="footer-left">
+            <img src="smallogo.png" alt="Small Logo" class="footer-logo">
+        </div>
+        <div class="footer-container">
+            <!------Les sections------>
+            <div class="footer-section">
+                <h6>À propos</h6>
+                <p>Nous sommes une société marocaine spécialisée dans la vente de produits de maquillage de luxe et de haute qualité.</p>
+                <p><a href="/plus">Plus</a></p>
+            </div>
+            <div class="footer-section">
+                <h6>Liens</h6>
+                <ul>
+                    <li><a href="/boutique">Boutique</a></li>
+                    <li><a href="/contact">Contactez-nous</a></li>
+                    <li><a href="/faq">FAQs</a></li>
+                    <li><a href="/politique-de-retour">Politique de retour</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h6>Support Client</h6>
+                <ul>
+                    <li>Email: <a href="mailto:support@shinebeauty.com">support@shinebeauty.com</a></li>
+                    <li>Téléphone: <a href="tel:+212520550020">+212520550020</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h6>Suivez-nous</h6>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com" class="social-icon" aria-label="Suivez-nous sur Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com" class="social-icon" aria-label="Suivez-nous sur Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.twitter.com" class="social-icon" aria-label="Suivez-nous sur Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.linkedin.com" class="social-icon" aria-label="Suivez-nous sur on LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+       
+        <div class="footer-bottom">
+            <p>Copyright © 2024 ShineBeauty. Tous droits réservés.</p>
+        </div>
+    </footer>
+    
+    
+    
+    <script src="SB.js"> </script>
+    
+</body>
 </html>
